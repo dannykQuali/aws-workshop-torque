@@ -10,6 +10,6 @@ grains:
   cfn-s3-grain:
     kind: cloudformation
     spec: 
-        name: dannyk-cfn-grain-spec-something
+        name: "dannyk-cfn-grain-spec-something"
         source: "https://quali-dannyk-storage.s3.amazonaws.com/AWSS3Bucket.json"
         
