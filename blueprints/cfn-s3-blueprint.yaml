@@ -4,12 +4,11 @@ description: "dannyk aws s3 cfn blueprint"
 kind: blueprint
 metadata:
   description: >
-    dannyk aws s3 cfn blueprint
+    dannyk aws s3 cfn blueprint, old spec description
 
 grains:
   cfn-s3-grain:
     kind: cloudformation
-    <grain_execution_order>
     spec: 
         name: dannyk-cfn-grain-spec-something
         source: "https://quali-dannyk-storage.s3.amazonaws.com/AWSS3Bucket.json"
