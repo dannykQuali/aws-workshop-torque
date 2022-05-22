@@ -1,4 +1,5 @@
 spec_version: 2
+description: "dannyk aws s3 cfn blueprint"
 grains:
   cfn-s3-grain:
     kind: cloudformation
