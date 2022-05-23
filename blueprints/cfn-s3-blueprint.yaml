@@ -1,4 +1,4 @@
-spec_version: 2
+spec_version: 2-preview
 description: "dannyk aws s3 cfn blueprint"
 
 grains:
