@@ -11,4 +11,5 @@ grains:
       host:
         cloud-account: aws
         compute-service: cfn
-        
+        region: us-east-1
+        role-arn: arn:aws:iam::799617105972:role/DannyK_S3_CreateBucket_Role_5
