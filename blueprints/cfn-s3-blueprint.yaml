@@ -9,7 +9,7 @@ grains:
         # store: autogen_repo_sandbox_3416a76b
         path: https://quali-dannyk-storage.s3.amazonaws.com/AWSS3Bucket.json
       host:
-        cloud-account: aws
+        cloud-account: McCloud
         compute-service: cfn
         region: us-east-1
-        role-arn: arn:aws:iam::799617105972:role/DannyK_S3_CreateBucket_Role_5
+        role-arn: arn:aws:iam::799617105972:role/DannyK_S3_CreateBucket_Role_6
