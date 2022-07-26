@@ -1,0 +1,16 @@
+spec_version: 2-preview
+description: "dannyk aws s3 cfn blueprint"
+
+grains:
+  cfn-s3-grain:
+    kind: cloudformation
+    spec: 
+      source:
+        # store: autogen_repo_sandbox_3416a76b
+        path: https://github.com/dannykQuali/aws-workshop-torque/cloudformations/AWSS3Bucket.json
+      host:
+        cloud-account: aws
+        compute-service: cfn
+      authentication:
+        role-arn: arn:aws:iam::799617105972:role/DannyK_S3_CreateBucket_Role_6
+      region: us-east-1
