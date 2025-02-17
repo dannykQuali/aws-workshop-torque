@@ -1,0 +1,6 @@
+resources:
+  vm:
+    selector:
+      quantity: 1
+      type: 'Mechanoid'
+spec_version: 2
